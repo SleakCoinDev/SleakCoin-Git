@@ -1,0 +1,34 @@
+src/*.exe
+src/sleakcoin
+src/sleakcoind
+src/test_sleakcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.sleakcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+sleakcoin-qt
+Sleakcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+sleakcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
